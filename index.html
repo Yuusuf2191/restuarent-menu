@@ -10,7 +10,7 @@
 <body>
 	<header>
 		
-		<a href="#" class="logo"><span>W</span>aa Yaabeysaa</a>
+		<a href="#" class="logo"><span>W</span>aa <span>Y</span>aabeysaa</a>
 		<div class="menuToggle" onclick="toggleMenu()"></div>
 		<ul class="navigation">
 			<li><a href="#home" onclick="toggleMenu()">Home</a></li>
@@ -64,7 +64,9 @@
 					<img src="img/menu1.jpg" alt="">
 				</div>
 				<div class="text">
-					<h3>Special Salads</h3>
+					<h3>Special Diet</h3>
+					<p class="price">9.99$</p>
+
 				</div>
 			</div>
 			<div class="box">
@@ -73,6 +75,8 @@
 				</div>
 				<div class="text">
 					<h3>Special Soup</h3>
+					<p class="price">$2.99$</p>
+
 				</div>
 			</div>
 			<div class="box">
@@ -81,6 +85,8 @@
 				</div>
 				<div class="text">
 					<h3>Special Pasta</h3>
+				    <p class="price">5.99$</p>
+
 				</div>
 			</div>
 			<div class="box">
@@ -89,6 +95,8 @@
 				</div>
 				<div class="text">
 					<h3>Special Salads</h3>
+					<p class="price">7.99$</p>
+
 				</div>
 			</div>
 			<div class="box">
@@ -96,7 +104,9 @@
 					<img src="img/menu5.jpg" alt="">
 				</div>
 				<div class="text">
-					<h3>Special Soup</h3>
+					<h3>Special Maraq</h3>
+					<p class="price">3.99$</p>
+
 				</div>
 			</div>
 			<div class="box">
@@ -104,7 +114,9 @@
 					<img src="img/menu6.jpg" alt="">
 				</div>
 				<div class="text">
-					<h3>Special Pasta</h3>
+					<h3>Meat and Salad</h3>
+					<p class="price">5.99$</p>
+
 				</div>
 			</div>
 		</div>
@@ -142,6 +154,7 @@
 				</div>
 				<div class="text">
 					<h3>Peter Doe</h3>
+
 				</div>
 			</div>
 			<div class="box">
@@ -150,6 +163,7 @@
 				</div>
 				<div class="text">
 					<h3>Dener Doe</h3>
+
 				</div>
 			</div>
 		</div>
@@ -197,6 +211,7 @@
 		</div>
 		<div class="contactForm">
 			<h3>Send Message</h3>
+
 			<div class="inputBox">
 				<input type="text" placeholder="Name" required>
 			</div>
@@ -213,22 +228,9 @@
 	</section>
 
 	<div class="copyrightText">
-		<p>Copyright 2020 <a href="#">Atulcodex</a>. All Rights Reserved.</p>
+		<p>Copyright 2026 <a href="#">Atulcodex</a>. All Rights Reserved.</p>
 	</div>
 
-	<script type="text/javascript">
-		window.addEventListener('scroll', function(){
-			const header = document.querySelector('header');
-			header.classList.toggle("sticky", window.scrollY > 0);
-		});
-
-		function toggleMenu()
-		{
-			const menuToggle = document.querySelector('.menuToggle');
-			const navigation = document.querySelector('.navigation');
-			menuToggle.classList.toggle('active');
-			navigation.classList.toggle('active');
-		}
-	</script>
+	
 </body>
 </html>
