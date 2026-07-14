@@ -21,7 +21,7 @@ p
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: url(img/bg.jpg);
+	background: url(img/pg.png);
 	background-size: cover;
 }
 
@@ -48,7 +48,7 @@ p
 {
 	font-size: 1em;
 	color: #ffffff;
-	background: #ff0157;
+	background: #ff4e89;
 	display: inline-block;
 	padding: 10px 30px;
 	margin-top: 20px;
@@ -60,33 +60,36 @@ p
 
 .btn:hover
 {
-	letter-spacing: 6px;
+	letter-spacing: 4px;
 }
 
 header
 {
-	position: fixed;
-	top: 0;
-	left: 0;
-	width: 100%;
-	padding: 40px;
-	z-index: 10000;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	transition: 0.5s;
+	position: sticky;
+	background-color: hwb(188 11% 19%);
+    top: 0;
+    width: 100%;
+    padding: 0px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    
+	
 }
+
 
 header.sticky
 {
 	background: #040101;
-	padding: 10px 60px;
-	box-shadow: 0 5px 20px rgba(113, 89, 89, 0.5);
+	padding: 0px 60px;
+	box-shadow: 0 5px 20px rgba(224, 9, 9, 0.5);
 }
 
 header .logo
 {
 	color: #cb5f68;
+	width: 240px;
 	font-weight: 700;
 	font-size: 2em;
 	text-decoration: none;
@@ -116,7 +119,7 @@ header .navigation li
 header .navigation li a
 {
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	font-weight: 400;
 }
 
@@ -168,6 +171,7 @@ section
 	max-width: 100%;
 	width: 100%;
 	height: auto;
+	border-radius: 12px;
 }
 
 .title
@@ -288,6 +292,7 @@ section
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+	border-radius: 10px;
 }
 
 .testimonials .content .box .imgBx img
@@ -314,6 +319,7 @@ section
 	font-size: 1em;
 	color: #ff0000;
 	font-weight: 600;
+	text-align: center;
 }
 
 
